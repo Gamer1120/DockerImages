@@ -1,0 +1,4 @@
+bitcoind:
+  image: bitcoind
+  volumes:
+    - /bitcoin:/root/.bitcoin
