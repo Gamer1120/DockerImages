@@ -6,3 +6,7 @@ ethereum:
   image: ethereum
   volumes:
     - /ethereum:/root/.ethereum
+zcashd:
+  image: zcashd
+  volumes:
+    - /zcash:/root/.zcash
